@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage ("git clone") {
             steps {
-                git url: 'https://github.com/tejesh555/applogin.git'
+                git url: 'https://github.com/summi2728/applogin.git'
             }
         }
         stage ("build") {
