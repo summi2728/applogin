@@ -2,7 +2,7 @@ pipeline {
    /* agent {
         docker { image 'image_name' }
     } */
-    agent {label "ec2-fleet"}
+    agent {label "suma27"}
     stages {
         stage ("git clone") {
             steps {
